@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{CE00AC98-6AB7-4466-BE0F-2E82E0C12D04}</ProjectGuid>
+    <RootNamespace>cc3k_cs246_final_project</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cell.cc" />
+    <ClCompile Include="cellDoorWay.cc" />
+    <ClCompile Include="cellEmpty.cc" />
+    <ClCompile Include="cellFloorTile.cc" />
+    <ClCompile Include="cellPassage.cc" />
+    <ClCompile Include="cellStairWay.cc" />
+    <ClCompile Include="cellWall.cc" />
+    <ClCompile Include="dlcScoreBoard.cc" />
+    <ClCompile Include="enemyDragon.cc" />
+    <ClCompile Include="goldDragon.cc" />
+    <ClCompile Include="goldMerchant.cc" />
+    <ClCompile Include="goldNormal.cc" />
+    <ClCompile Include="pcDrow.cc" />
+    <ClCompile Include="enemyDwarf.cc" />
+    <ClCompile Include="enemyElf.cc" />
+    <ClCompile Include="enemy.cc" />
+    <ClCompile Include="figure.cc" />
+    <ClCompile Include="floor.cc" />
+    <ClCompile Include="pcGoblin.cc" />
+    <ClCompile Include="gold.cc" />
+    <ClCompile Include="goldSmall.cc" />
+    <ClCompile Include="enemyHalfling.cc" />
+    <ClCompile Include="enemyHuman.cc" />
+    <ClCompile Include="item.cc" />
+    <ClCompile Include="main.cc" />
+    <ClCompile Include="enemyMerchant.cc" />
+    <ClCompile Include="observer.cc" />
+    <ClCompile Include="enemyOrcs.cc" />
+    <ClCompile Include="pc.cc" />
+    <ClCompile Include="potion.cc" />
+    <ClCompile Include="potionBA.cc" />
+    <ClCompile Include="potionBD.cc" />
+    <ClCompile Include="potionPH.cc" />
+    <ClCompile Include="potionRH.cc" />
+    <ClCompile Include="potionWA.cc" />
+    <ClCompile Include="potionWD.cc" />
+    <ClCompile Include="pcShade.cc" />
+    <ClCompile Include="random.cc" />
+    <ClCompile Include="subject.cc" />
+    <ClCompile Include="textdisplay.cc" />
+    <ClCompile Include="thing.cc" />
+    <ClCompile Include="pcTroll.cc" />
+    <ClCompile Include="pcVampire.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cell.h" />
+    <ClInclude Include="cellDoorWay.h" />
+    <ClInclude Include="cellEmpty.h" />
+    <ClInclude Include="cellFloorTile.h" />
+    <ClInclude Include="cellPassage.h" />
+    <ClInclude Include="cellStairWay.h" />
+    <ClInclude Include="cellWall.h" />
+    <ClInclude Include="dlcScoreBoard.h" />
+    <ClInclude Include="enemyDragon.h" />
+    <ClInclude Include="globalCell.h" />
+    <ClInclude Include="globalEnemy.h" />
+    <ClInclude Include="globalGold.h" />
+    <ClInclude Include="globalPC.h" />
+    <ClInclude Include="globalPotion.h" />
+    <ClInclude Include="goldDragon.h" />
+    <ClInclude Include="goldMerchant.h" />
+    <ClInclude Include="goldNormal.h" />
+    <ClInclude Include="pcDrow.h" />
+    <ClInclude Include="enemyDwarf.h" />
+    <ClInclude Include="enemyElf.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="figure.h" />
+    <ClInclude Include="floor.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="pcGoblin.h" />
+    <ClInclude Include="gold.h" />
+    <ClInclude Include="goldSmall.h" />
+    <ClInclude Include="enemyHalfling.h" />
+    <ClInclude Include="enemyHuman.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="enemyMerchant.h" />
+    <ClInclude Include="observer.h" />
+    <ClInclude Include="enemyOrcs.h" />
+    <ClInclude Include="pc.h" />
+    <ClInclude Include="potion.h" />
+    <ClInclude Include="potionBA.h" />
+    <ClInclude Include="potionBD.h" />
+    <ClInclude Include="potionPH.h" />
+    <ClInclude Include="potionRH.h" />
+    <ClInclude Include="potionWA.h" />
+    <ClInclude Include="potionWD.h" />
+    <ClInclude Include="pcShade.h" />
+    <ClInclude Include="random.h" />
+    <ClInclude Include="subject.h" />
+    <ClInclude Include="textdisplay.h" />
+    <ClInclude Include="thing.h" />
+    <ClInclude Include="pcTroll.h" />
+    <ClInclude Include="pcVampire.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

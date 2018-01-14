@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="subject.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thing.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="observer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gold.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textdisplay.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cell.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="floor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="potion.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="figure.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="goldSmall.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyDragon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyDwarf.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyElf.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyHalfling.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyHuman.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyMerchant.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyOrcs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcDrow.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcGoblin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcShade.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcTroll.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="goldNormal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="goldMerchant.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="goldDragon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="potionRH.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="potionBA.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="potionBD.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="potionPH.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="potionWA.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="potionWD.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cellWall.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cellFloorTile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cellDoorWay.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cellStairWay.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cellPassage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cellEmpty.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcVampire.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlcScoreBoard.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="subject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textdisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="floor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="potion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="figure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="goldSmall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyDragon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyDwarf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyElf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyHalfling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyHuman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyMerchant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyOrcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcDrow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcGoblin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcShade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcTroll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcVampire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="goldNormal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="goldMerchant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="goldDragon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="potionRH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="potionBA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="potionBD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="potionPH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="potionWA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="potionWD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cellWall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cellFloorTile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cellDoorWay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cellStairWay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cellPassage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cellEmpty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalEnemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalGold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalPotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dlcScoreBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
