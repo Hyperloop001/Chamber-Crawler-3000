@@ -110,18 +110,21 @@ learn about the effects of that particular potion. Other potions will not have t
 exception is for potions purchased from the Merchant7, which should have have their abilities displayed.
 
 Positive Potions:
+
  Restore health (RH): restore up to 10 HP (cannot exceed maximum prescribed by race)
+
  Boost Atk (BA): increase Atk by 5
-5They’re capitalists after all
-6Note: Adding an inventory is a great DLC for CC3k.
-7Only a concern for bonus purposes. The default game does not require Merchants to sell anything.
-3
+
  Boost Def (BD): increase Def by 5
 
 Negative Potions:
+
  Poison health (PH): lose up to 10 HP (cannot fall below 0 HP)
+
  Wound Atk (WA): decrease Atk by 5
+
  Wound Def (WD): decrease Def by 5
+
 The effects of RH and PH are permanent while the effects of all other potions are limited to the floor they
 are used on. For example, using a BA potion will only boost the player character’s Atk until the beginning
 of the next floor.
@@ -157,11 +160,17 @@ Chambers are equally likely (as are floor tiles in any particular chamber) to sp
 spawned on every floor.
 
 With the exception of dragons, enemies have the following probability distribution of being spawned:
+
  Human: 2/9
+
  Dwarf: 3/18
+
  Halfling: 5/18
+
  Elf: 1/9
+
  Orc: 1/9
+
  Merchant: 1/9
 
 20 enemies are spawned per floor (this number does not include dragons). Every chamber is equally likely
@@ -210,14 +219,22 @@ or the player quits. If the player reaches the end of the game or their characte
 give them the option of playing again or quitting.
 
 The following commands can be supplied to your command interpreter:
+
  no,so,ea,we,ne,nw,se,sw: moves the player character one block in the appropriate cardinal direction.
+
  u <direction>: uses the potion indicated by the direction (e.g. no, so, ea).
+  
  a <direction>: attacks the enemy in the specified direction, if the monster is in the immediately
 specified block (e.g. must be one block north of the @).
+  
  s, d, v, g, t: specifies the race the player wishes to be when starting a game.
+
  f: stops enemies from moving until this key is pressed again.
+
  r: restarts the game. All stats, inventory, and gold are reset. A new race should be selected.
+
  q: allows the player to admit defeat and exit the game.
+
 Note that the board should be redrawn as appropriate every time a command is entered.
 
 
