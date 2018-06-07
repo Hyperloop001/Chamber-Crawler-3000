@@ -21,7 +21,7 @@ were programmed in a similar fashion to CC3k.
   But you can still compile everything within a shell or even using your IDE. XD
 
   If you compiled the game successfully, congratulations! 
-  You can now start the game by entering "./cc3k" to your command line
+  You can now start the game by entering "./cc3k" to your command line.
 #### You must check this out, or you can't go anywhere!
 ##### Because this part is all about how to play the game.
 ##### Some Definitions
