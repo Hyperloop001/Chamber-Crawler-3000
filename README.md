@@ -14,23 +14,25 @@ were programmed in a similar fashion to CC3k.
 
 ### Before you start the game:
 #### Compile it!
-Everything is in form of source code, so you might want to compile it before playing.
-The good news is a Makefile is provided. Bad news, emmmm, only tested on linux...
-But you can still compile everything within a shell or even using your IDE. XD
+  Everything is in form of source code, so you might want to compile it before playing.
+  The good news is a Makefile is provided. Bad news, emmmm, only tested on linux...
+  But you can still compile everything within a shell or even using your IDE. XD
 
-If you compiled the game successfully, congratulations! 
-You can now start the game by entering "./cc3k" to your command line
+  If you compiled the game successfully, congratulations! 
+  You can now start the game by entering "./cc3k" to your command line
 #### You must check this out, or you can't go anywhere!
-Because this part is all about how to play the game.
+  Because this part is all about how to play the game.
 
 ### Building your own map/mod and play with it:
 #### Maps:
-A default map file was given as cc3kfloor.txt, just follow the same format and build your own map! EASY!
-To activate your map, give it a cool name (e.g. "hyperloopMap.txt"), 
-then put it as a command line argument (e.g. "./cc3k hyperloopMap.txt").
+  A default map file was given as cc3kfloor.txt, just follow the same format and build your own map! EASY!
+  To activate your map, give it a cool name (e.g. "hyperloopMap.txt"), 
+  then put it as a command line argument (e.g. "./cc3k hyperloopMap.txt").
 #### Mods:
-The game came with a score board mod, just add a flag "-SB" on the command line (e.g. "./cc3k -SB").
-Or you can make your own by creating and modifying the main files by yourself...
+  The game came with a score board mod, just add a flag "-SB" on the command line (e.g. "./cc3k -SB") 
+  and you can start a match with your friends/boy-friends/girl-friends or even your ex!
 
+  You can also make your own by creating and modifying the main files... I am not doing it!
+  
 ### Happy playing!
 
