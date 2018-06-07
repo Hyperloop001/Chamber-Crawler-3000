@@ -1,5 +1,7 @@
 # Chamber Crawler 3000
 ## A game designed for those who don't like beautiful user interfaces :-)
+![alt text](https://i.imgur.com/WisLEYJ.png)   
+
 ### Introduction: It's a simplified text-based rouge-like game! 
 A map of CC3k consists of a board 79 columns wide and 30 rows high. 
 
