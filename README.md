@@ -55,6 +55,50 @@ be generated and placed on the board.
 
 Definition 10 : A 1 block radius denotes the 8 cells adjacent to the character or item.
 
+##### Player Character
+The default player character race is a shade4 that has starting stats (125 HP, 25 Atk, 25 Def). However,
+players have the option of choosing an alternate (but no less heroic) race: drow (150 HP, 25 Atk , 15 Def,
+all potions have their effect magnified by 1.5), vampire (50 HP, 25 Atk, 25 Def, gains 5 HP every successful
+attack and has no maximum HP), troll (120 HP, 25 Atk, 15 Def, regains 5 HP every turn; HP is capped at
+120 HP), and goblin (110 HP, 15 Atk, 20 Def, steals 5 gold from every slain enemy). Max HP for all races
+is the starting HP, except for vampire which has no max.
+In the game board, the player character is always denoted by the ‘@’ symbol.
+
+##### Enemies
+Enemies are the mortal foes of our illustrious player character. In a traditional rogue-like, the enemy
+character would have some degree of artificial intelligence. However, for simplicity in CC3k, enemies, except
+for dragons, move one square randomly within the confines of the chamber they were spawned in. Dragons
+are stationary and always guard a treasure hoard.
+
+Enemies can be one of human (140 HP, 20 Atk, 20 Def, drops 2 normal piles of gold), dwarf (100 HP, 20
+Atk, 30 Def, Vampires are allergic to dwarves and lose 5HP rather than gain), elf (140 HP, 30 Atk, 10 Def,
+gets two attacks against every race except drow), orcs (180 HP, 30 Atk, 25 Def, does 50% more damage to
+goblins), merchant (30 HP, 70 Atk, 5 Def), dragon (150 HP, 20 Atk, 20 Def, always guards a treasure hoard),
+and halfling (100 HP, 15 Atk, 20 Def, has a 50% chance to cause the player character to miss in combat, i.e.
+takes priority over player character’s ability to never miss).
+
+By default, merchants are neutral to all parties5. However, merchants can be attacked and slain by the
+player character. Attacking or slaying a Merchant will cause every Merchant from that point forward to
+become hostile to the player character for the rest of the game even on future floors (and will attack them
+if they pass within a one block radius).
+
+Dragons always spawn in a one block radius of its dragon hoard(see Treasure). That is, if a dragon hoard
+is spawned then a dragon is spawned.
+
+Upon their demise, any enemy that is not a dragon, human, or merchant will drop either a small pile or
+normal pile of gold (discussed below). This gold is immediately added to the player character’s total.
+
+Enemies (except dragons, who are stationary) move randomly 1 floor tile at a time, assuming the floor
+tile is unoccupied (see Section 3 for floor tile description). An enemy can never leave the room it was spawned (created) in. 
+Note that enemies should be moved in a line-by-line fashion. That is, starting at the leftmost enemy, 
+move all enemies on that row and then move to the next row starting with the leftmost. 
+Any particular enemy should only be moved once per player action (e.g. moving to a line that has not been
+processed does not grant an extra move). However, should the player character be within a 1 block radius
+of an enemy then the enemy will always attack the player character.
+
+Enemies are denoted on the map as follows: (H)uman, d(W)arf, (E)lf, (O)rc, (M)erchant, (D)ragon,
+Half(L)ing.
+
 ### Building your own map/mod and play with it:
 #### Maps:
   A default map file was given as cc3kfloor.txt, just follow the same format and build your own map! EASY!
