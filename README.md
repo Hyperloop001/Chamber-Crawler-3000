@@ -22,6 +22,7 @@ were programmed in a similar fashion to CC3k.
 
   If you compiled the game successfully, congratulations! 
   You can now start the game by entering "./cc3k" to your command line.
+  To activate mods or build your own maps, please refer to the end of "README.md".
 #### You must check this out, or you can't go anywhere!
 ##### Because this part is all about how to play the game.
 ##### Some Definitions
