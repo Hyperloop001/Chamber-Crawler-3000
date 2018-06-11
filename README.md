@@ -65,6 +65,7 @@ all potions have their effect magnified by 1.5), vampire (50 HP, 25 Atk, 25 Def,
 attack and has no maximum HP), troll (120 HP, 25 Atk, 15 Def, regains 5 HP every turn; HP is capped at
 120 HP), and goblin (110 HP, 15 Atk, 20 Def, steals 5 gold from every slain enemy). Max HP for all races
 is the starting HP, except for vampire which has no max.
+
 In the game board, the player character is always denoted by the ‘@’ symbol.
 
 ##### Enemies
@@ -80,7 +81,7 @@ goblins), merchant (30 HP, 70 Atk, 5 Def), dragon (150 HP, 20 Atk, 20 Def, alway
 and halfling (100 HP, 15 Atk, 20 Def, has a 50% chance to cause the player character to miss in combat, i.e.
 takes priority over player character’s ability to never miss).
 
-By default, merchants are neutral to all parties5. However, merchants can be attacked and slain by the
+By default, merchants are neutral to all parties. However, merchants can be attacked and slain by the
 player character. Attacking or slaying a Merchant will cause every Merchant from that point forward to
 become hostile to the player character for the rest of the game even on future floors (and will attack them
 if they pass within a one block radius).
@@ -131,7 +132,6 @@ Negative Potions:
 The effects of RH and PH are permanent while the effects of all other potions are limited to the floor they
 are used on. For example, using a BA potion will only boost the player character’s Atk until the beginning
 of the next floor.
-Note that the PC’s Atk and Def can never drop below 0.
 
 ##### Treasure
 Treasure in CC3k consists only of gold. Gold can be in several types of piles: small (value 1), normal (value
@@ -144,23 +144,20 @@ hoard, value 4) or a human (2 normal piles, value 2x2=4) is picked up only when 
 ##### Floors
 Levels are generated to consist of the 5 chambers connected in the manner outlined in Figure 1. It would be
 more interesting to have randomly connected randomly generated chambers but that is more complicated
-than the time frame allows9.
+than the time frame allows.
 
 The player character should spawn randomly in a chamber (every chamber is equally likely) but it should
 never be the case that the player spawns in the chamber with the stairs going down to the next level. Stairs
 are denoted by '\'? Note that the stairway and player character may be spawned with equal probability on
 any floor tile in a chamber. That is, a larger chamber should be no more likely to spawn the PC/stairs than
 a smaller chamber, where any floor tile in the selected chamber is equally likely to spawn the PC/stairs.
-10 potions are spawned on each floor. A potion抯 type is chosen at random, with each type having equal
+10 potions are spawned on each floor. A potion type is chosen at random, with each type having equal
 (1/6) probability. The chamber the potion spawns in is also chosen at random, with each room having equal
 (1/5) probability. Each square in the chamber a potion spawns in has an equal chance of containing the
 potion. Note that this means in particular that small rooms are just as likely to spawn potions as large
 rooms.
 
-We might like to have gold spawn more or less frequently as the game gets more difficult. However, to
-again simplify design the spawn rate of gold is 5/8 chance of normal, 1/8 dragon hoard, 1/4 small hoard.
-Chambers are equally likely (as are floor tiles in any particular chamber) to spawn gold. 10 piles of gold are
-spawned on every floor.
+10 piles of gold are spawned on every floor.
 
 With the exception of dragons, enemies have the following probability distribution of being spawned:
 
@@ -179,19 +176,12 @@ With the exception of dragons, enemies have the following probability distributi
 20 enemies are spawned per floor (this number does not include dragons). Every chamber is equally likely
 to spawn any particular monster (similarly for floor tiles).
 
-We require that generation happens in the following order: player character location, stairway location,
-potions, gold, enemies. This is to allow us to more easily evaluate that your random generation is correctly
-implemented.
-
 Note that multiple objects (enemies, gold, and potions) cannot occupy the same cell on the game board.
 That is, no two objects can ever occupy the same space. The one exception to this is the case of gold.
 Typically, when a player character walks over gold, it is picked up. The exception to this is if the gold is
 associated with a still alive dragon; in this case, the player simply walks over the gold, without picking it.
 When the PC attempts to move on to a stairway, the next level is instead generated and displayed, with
 the PC spawning in a random position on the new level.
-
-Items and enemies should only ever spawn on a floor tile and never in a doorway, passage, or the stairs
-leading down to the next floor.
 
 ##### Combat
 By default, all enemies except for Merchants and Dragons are hostile to the player character. If the player
@@ -213,7 +203,7 @@ where Attacker specifies the attacking character (enemy or PC) and defender spec
 attacked. Thus, in a single round a character can be both an attacker and a defender.
 
 ##### Command Interpreter
-Initially, the game will demand the player enter one of the specified races or quit. Entering 憅?or EOF (e.g.
+Initially, the game will demand the player enter one of the specified races or quit. Entering 'q' or EOF (e.g.
 Ctrl-D) at the race prompt will cause the program to terminate. Supplying a valid race selection (below)
 will start that game using that race. Other values will be ignored.
 
@@ -237,10 +227,6 @@ specified block (e.g. must be one block north of the @).
  r: restarts the game. All stats, inventory, and gold are reset. A new race should be selected.
 
  q: allows the player to admit defeat and exit the game.
-
-Note that the board should be redrawn as appropriate every time a command is entered.
-
-
 
 
 ### Building your own map/mod and play with it:
