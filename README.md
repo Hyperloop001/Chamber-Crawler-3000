@@ -17,8 +17,8 @@ were programmed in a similar fashion to CC3k.
 ### Before you start the game:
 #### Compile it!
   Everything is in form of source code, so you might want to compile it before playing.
-  The good news is a Makefile is provided. Bad news, emmmm, only tested on linux...
-  But you can still compile everything within a shell or even using your IDE. XD
+  Good news is a Makefile is provided. Bad news, emmmm, only tested on linux...
+  But you can still compile everything in a shell or with your IDE. XD
 
   If you compiled the game successfully, congratulations! 
   You can now start the game by entering "./cc3k" to your command line.
