@@ -236,7 +236,7 @@ specified block (e.g. must be one block north of the @).
   then put it as a command line argument (e.g. "./cc3k hyperloopMap.txt").
 #### Mods:
   The game came with a score board mod, just add a flag "-SB" on the command line (e.g. "./cc3k -SB") 
-  and you can start a match with your friends/boy-friends/girl-friends or even your ex!
+  and you can start a match with your friends :)
 
   You can also make your own by creating and modifying the main files... I am not doing it!
   
